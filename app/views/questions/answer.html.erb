@@ -1,0 +1,13 @@
+
+# affiche la question
+<h1><%= @question %></h1>
+<!-- <p>Voici la réponse à votre question :</p> -->
+<p>Voici la réponse à votre question :</p>
+<!-- <p><%= @answer %></p> -->
+<h2><%= @answer %></H2>
+
+# Affiche le bouton pour poser une nouvelle question
+<!-- <form action="/ask" data-turbo="false"> -->
+<form action="/ask" data-turbo="false">
+  <input type="submit" value="Poser une nouvelle question" class="btn btn-primary">
+</form>
